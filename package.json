@@ -1,0 +1,15 @@
+{
+  "name": "rede-de-ordenacao",
+  "version": "1.0.0",
+  "description": "Redes de ordenacao varridas em Node puro: o principio 0-1 conferido contra todas as permutacoes, e a menor rede achada por busca.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
